@@ -36,7 +36,6 @@ h1 {
     color: gold;
 }
 
-/* Labels */
 label {
     display: block;
     margin-top: 1rem;
@@ -46,7 +45,6 @@ label {
     color: #ffd700;
 }
 
-/* Inputs */
 input {
     width: 100%;
     padding: 0.5rem;
@@ -57,7 +55,6 @@ input {
     color: #f8f8f8;
 }
 
-/* Button */
 button {
     width: 100%;
     margin-top: 1.2rem;
@@ -76,7 +73,6 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* Confirmation */
 .confirmation {
     margin-top: 1.5rem;
     background: #1f1f1f;
