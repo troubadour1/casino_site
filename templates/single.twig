@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Locorotondo Casino Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Loco Casino</h1>
+
+        <form method="POST">
+            <label for="speler">Speler nr:</label>
+            <input type="text" name="speler" id="speler" required>
+
+            <label for="punten">Punten:</label>
+            <input type="number" name="punten" id="punten" required>
+
+            <button type="submit">Bevestigen 🎲</button>
+        </form>
+
+        {% if done %}
+            <p class="confirmation">Speler {{ speler }} kreeg <strong>{{ punten }}</strong> punten!</p>
+        {% endif %}
+    </div>
+</body>
+</html>

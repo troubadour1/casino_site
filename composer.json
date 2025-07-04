@@ -1,0 +1,17 @@
+{
+    "name": "marti/casino_site_vs",
+    "autoload": {
+        "psr-4": {
+            "Marti\\CasinoSiteVs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "marti",
+            "email": "martijn.klaver@student.kuleuven.be"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.21"
+    }
+}
